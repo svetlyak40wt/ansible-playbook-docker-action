@@ -2,6 +2,15 @@
 
 set -e
 
+echo "CURRENT_DIR:"
+pwd
+
+echo "ENV:"
+env | sort
+
+echo ""
+echo "USUAL EXECUTION:"
+
 # Evaluate keyfilevaultpass
 export KEYFILEVAULTPASS=
 if [ ! -z "$INPUT_KEYFILEVAULTPASS" ]
