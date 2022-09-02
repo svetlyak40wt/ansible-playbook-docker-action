@@ -5,6 +5,9 @@ set -e
 echo "CURRENT_DIR:"
 pwd
 
+echo "FILES:"
+ls -l
+
 echo "ENV:"
 env | sort
 
