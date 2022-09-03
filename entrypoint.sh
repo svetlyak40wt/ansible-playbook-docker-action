@@ -2,21 +2,6 @@
 
 set -e
 
-echo "CURRENT_DIR:"
-pwd
-
-echo "FILES:"
-ls -l
-
-echo "FILES AT /home/runner/work/ultralisp":
-
-ls -l /home/runner/work/ultralisp
-
-echo "ENV:"
-env | sort
-
-echo ""
-echo "USUAL EXECUTION:"
 
 # Evaluate keyfilevaultpass
 export KEYFILEVAULTPASS=
